@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['bard_land', 'river']
+
+roboflow:
+  workspace: object-detection-bdtfe
+  project: river-u9ekk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-bdtfe/river-u9ekk/dataset/1
